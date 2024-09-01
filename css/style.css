@@ -27,6 +27,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--bg-dark1);
 }
 
 .suse-medium,
@@ -175,12 +176,23 @@ a:hover {
     text-decoration: underline;
 }
 
+.application-restriction-wrapper {
+    z-index: 999;
+    position: absolute;
+    background-color: var(--bg-dark2);
+    width: 100%;
+    height: 100%;
+}
+
 
 /* Extra Small devices (576px and up) */
 
 @media (max-width: 576px) {
-    body {
-        background-color: rgb(39, 38, 38);
+    .application-restriction-wrapper {
+        display: block;
+    }
+    .main-flow {
+        width: 100%;
     }
 }
 
@@ -188,8 +200,11 @@ a:hover {
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
-    body {
-        background-color: rgb(255, 187, 0);
+    .application-restriction-wrapper {
+        display: block;
+    }
+    .main-flow {
+        width: 100%;
     }
 }
 
@@ -197,8 +212,11 @@ a:hover {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    body {
-        background-color: rgb(190, 241, 48);
+    .application-restriction-wrapper {
+        display: block;
+    }
+    .main-flow {
+        width: 100%;
     }
 }
 
@@ -206,8 +224,11 @@ a:hover {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    body {
-        background-color: rgb(226, 41, 165);
+    .application-restriction-wrapper {
+        display: none;
+    }
+    .main-flow {
+        width: 100%;
     }
 }
 
@@ -215,8 +236,11 @@ a:hover {
 /* X-Large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    body {
-        background-color: aliceblue;
+    .application-restriction-wrapper {
+        display: none;
+    }
+    .main-flow {
+        width: 100%;
     }
 }
 
@@ -224,7 +248,10 @@ a:hover {
 /* XX-Large devices (larger desktops, 1400px and up) */
 
 @media (min-width: 1400px) {
-    body {
-        background-color: rgb(31, 230, 130);
+    .application-restriction-wrapper {
+        display: none;
+    }
+    .main-flow {
+        max-width: 1500px;
     }
 }
