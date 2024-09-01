@@ -35,9 +35,6 @@ Take a closer look at what **Web Humpty** has to offer:
     <img src="assets/screenshot3.webp" alt="web hupmty main wall" style="border-radius: 10px; margin: 10px;">
    </div>
 
-4. **🎨 Customizable Themes**: Personalize your workspace with a variety of themes.
-   ![Themes](path_to_screenshot_4)
-
 ## 📦 Installation
 
 Getting started with **Web Humpty** is simple! Just follow these steps:
