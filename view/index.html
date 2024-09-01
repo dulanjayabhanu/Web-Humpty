@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#353535" />
+    <meta content="A powerful real-time HTML, CSS, and JavaScript code editor with live preview and smart suggestions, perfect for creating web projects effortlessly." name="description">
+    <meta content="website" property="og:type">
+    <meta content="Dulanjaya Bhanu" name="author">
+    <meta content="Web Humpty - Online Code Editor" property="og:title">
+    <meta content="A powerful real-time HTML, CSS, and JavaScript code editor with live preview and smart suggestions, perfect for creating web projects effortlessly." property="og:description">
+    <meta content="" property="og:image">
+    <meta content="Web Humpty - Online Code Editor" property="twitter:title">
+    <meta content="A powerful real-time HTML, CSS, and JavaScript code editor with live preview and smart suggestions, perfect for creating web projects effortlessly." property="twitter:description">
+    <meta content="" property="twitter:image">
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="HTML,CSS,JavaScript,LivePreview,CodeSuggestions,WebDevelopment,Coding Workspace,WebProjects,DeveloperTools" name="keywords">
+    <title>Web Humpty - Online Code Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+    <link rel="icon" href="../resource/img/logo.webp" />
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body onload="webViewEngineConstruct();">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- main flow -->
+            <div class="col-12 main-flow pt-3 pb-3">
+                <!-- sub flow -->
+                <div class="col-12 sub-flow br-1">
+                    <div class="row">
+                        <!-- detail panel -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 d-flex flex-column justify-content-between">
+                            <div class="col-12">
+                                <div class="row d-flex flex-row pt-3 pb-3 ps-3 pe-3">
+                                    <div class="col-12 d-flex flex-row justify-content-center">
+                                        <h3>Web Humpty</h3>
+                                    </div>
+                                    <div class="col-12 p-4 d-flex flex-row justify-content-center align-items-center">
+                                        <div class="web-humpty-logo br-3"></div>
+                                    </div>
+                                    <div class="col-12">
+                                        <span class="fs-com">Code effortlessly with our Real-Time Code Editor! 🎉 Instantly preview your HTML, CSS, and JavaScript on the right side as you type.</span>
+                                    </div>
+                                    <div class="col-12 pt-4">
+                                        <span class="fs-com">Key Features</span>
+                                        <ul class="pt-2 d-flex flex-column justify-content-start">
+                                            <li>💻 Live Preview: See your changes instantly.</li>
+                                            <li>✨ Smart Suggestions: Speed up coding with intelligent hints.</li>
+                                        </ul>
+                                        <span class="fs-com">Perfect for all levels—start creating stunning web projects today!</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex flex-column ps-3 pe-3 pb-2">
+                                <span class="fs-com">Copyright 2024 &copy; All rights recevied</span>
+                                <span class="fs-com">Developed By <a href="https://github.com/dulanjayabhanu" class="fs-com">Dulanjaya Bhanu</a></span>
+                            </div>
+                        </div>
+                        <!-- detail panel -->
+                        <!-- coding area -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 pt-3 pb-3 ps-2 pe-2">
+                            <div class="row">
+                                <!-- html input engine -->
+                                <div class="col-12 com-section">
+                                    <div class="col-12 pt-2 pb-2">
+                                        <div class="col-12 d-flex flex-row justify-content-between">
+                                            <div>
+                                                <span><i class="bi bi-filetype-html"></i>&nbsp;Html</span>
+                                            </div>
+                                            <div>
+                                                <button class="btn-1 fs-com" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Reset" onclick="inputElementReset('html');"><i class="bi bi-arrow-repeat"></i>&nbsp;</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 com-wrapper">
+                                        <div class="col-12 sub-com-card br-2 p-3" id="html-sub-com-card-wrapper">
+                                            <textarea id="html-input-element" spellcheck="false" cols="30" rows="7" class="input-engine w-100" onkeyup="inputTransaction('html');" oninput="inputElementGrower('html');"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- html input engine -->
+                                <!-- html input engine -->
+                                <div class="col-12 com-section">
+                                    <div class="col-12 pt-2 pb-2">
+                                        <div class="col-12 d-flex flex-row justify-content-between">
+                                            <div>
+                                                <span><i class="bi bi-filetype-css"></i>&nbsp;Css</span>
+                                            </div>
+                                            <div>
+                                                <button class="btn-1 fs-com" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Reset" onclick="inputElementReset('css');"><i class="bi bi-arrow-repeat"></i>&nbsp;</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 com-wrapper">
+                                        <div class="col-12 sub-com-card br-2 p-3" id="css-sub-com-card-wrapper">
+                                            <textarea id="css-input-element" spellcheck="false" cols="30" rows="7" class="input-engine w-100" onkeyup="inputTransaction('css');" oninput="inputElementGrower('css');"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- html input engine -->
+                                <!-- html input engine -->
+                                <div class="col-12 com-section">
+                                    <div class="col-12 pt-2 pb-2">
+                                        <div class="col-12 d-flex flex-row justify-content-between">
+                                            <div>
+                                                <span><i class="bi bi-filetype-js"></i>&nbsp;JavaScript</span>
+                                            </div>
+                                            <div>
+                                                <button class="btn-1 fs-com" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Reset" onclick="inputElementReset('js');"><i class="bi bi-arrow-repeat"></i>&nbsp;</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 com-wrapper">
+                                        <div class="col-12 sub-com-card br-2 p-3" id="js-sub-com-card-wrapper">
+                                            <textarea id="js-input-element" spellcheck="false" cols="30" rows="7" class="input-engine w-100" onkeyup="inputTransaction('js');" oninput="inputElementGrower('js');"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- html input engine -->
+                            </div>
+                        </div>
+                        <!-- coding area -->
+                        <!-- preview area -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-5 pt-3 pb-3 ps-2 pe-2">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class=" col-12 pt-2 pb-2 ">
+                                        <span><i class="bi bi-display "></i>&nbsp;Web View</span>
+                                    </div>
+                                    <div class="col-12 pe-4">
+                                        <div class="col-12 sub-com-card web-view-wrapper br-2 p-0 m-0">
+                                            <iframe id="web-view-engine" class="web-view-engine"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- preview area -->
+                    </div>
+                </div>
+                <!-- sub flow -->
+            </div>
+            <!-- main flow -->
+        </div>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4 " crossorigin="anonymous "></script> -->
+    <script src="../lib/bootstrap.bundle.min.js "></script>
+    <script src="../js/script.js "></script>
+    <script src="../lib/codingSupporter.js"></script>
+</body>
+
+</html>
