@@ -12,31 +12,28 @@
 - **💡 Smart Code Suggestions**: Get intelligent hints and auto-completions that speed up your coding process and reduce errors.
 - **🎨 Unified Workspace**: Enjoy a streamlined interface where you can write HTML, CSS, and JavaScript in one place.
 - **🚀 Fast & Lightweight**: Built for speed, Web Humpty loads quickly and handles large projects with ease.
+- **📱 Fully Responsive**: Code on the go with a responsive design that works beautifully on any device.
 - **🌐 Cross-Browser Compatibility**: Ensures your web projects work flawlessly across all major browsers.
 - **🛠️ Developer-Friendly**: With shortcuts and tools designed for professionals, Web Humpty makes coding more productive and enjoyable.
-
-## 🎥 Demo
-
-Want to see **Web Humpty** in action? Check out this demo to experience the magic:
-
-![Web Humpty Demo](path_to_your_demo_gif) <!-- Showcase a GIF of your software in action -->
 
 ## 🖼️ Screenshots
 
 Take a closer look at what **Web Humpty** has to offer:
 
-<div>
-  <img src="assets/screenshot1.webp" alt="web hupmty main wall" style="border-radius: 10px; margin: 10px;">
-</div>
-
 1. **✨ Main Interface**: A clean, intuitive layout that keeps you focused on coding.
-   ![Main Interface](path_to_screenshot_1)
+   <div>
+    <img src="assets/screenshot1.webp" alt="web hupmty main wall" style="border-radius: 10px; margin: 10px;">
+   </div>
 
 2. **🔍 Live Preview**: Instant feedback with a split-screen preview of your work.
-   ![Live Preview](path_to_screenshot_2)
+   <div>
+    <img src="assets/screenshot2.webp" alt="web hupmty main wall" style="border-radius: 10px; margin: 10px;">
+   </div>
 
 3. **💡 Code Suggestions**: Smart hints that make coding faster and more accurate.
-   ![Code Suggestions](path_to_screenshot_3)
+   <div>
+    <img src="assets/screenshot3.webp" alt="web hupmty main wall" style="border-radius: 10px; margin: 10px;">
+   </div>
 
 4. **🎨 Customizable Themes**: Personalize your workspace with a variety of themes.
    ![Themes](path_to_screenshot_4)
