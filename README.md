@@ -56,6 +56,12 @@ Getting started with **Web Humpty** is simple! Just follow these steps:
 
 **Web Humpty** is designed to be as intuitive as possible:
 
+<div>
+    <img src="assets/profomence.jpg" alt="web hupmty main wall" style="border-radius: 10px; margin: 10px;">
+</div>
+
+<br/>
+
 1. **Start Coding**: Type your HTML, CSS, or JavaScript code in the editor panel.
 2. **Instant Feedback**: Watch your code come to life in the real-time preview panel on the right.
 3. **Smart Suggestions**: Utilize the smart code suggestions to enhance your coding speed and accuracy.
