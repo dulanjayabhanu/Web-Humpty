@@ -1,8 +1,10 @@
 # 🌐 Web Humpty
 
-**Web Humpty** is your ultimate real-time code editor, designed for developers who crave efficiency and creativity. Whether you're working on HTML, CSS, or JavaScript, Web Humpty offers a seamless experience with instant feedback, smart suggestions, and a beautifully integrated workspace. 🚀
+<div>
+  <img src="assets/wall.webp" alt="web hupmty main wall" style="border-radius: 10px; margin: 10px;">
+</div>
 
-![Web Humpty Banner](path_to_your_banner_image) <!-- Add a banner image to make your README visually appealing -->
+**Web Humpty** is your ultimate real-time code editor, designed for developers who crave efficiency and creativity. Whether you're working on HTML, CSS, or JavaScript, Web Humpty offers a seamless experience with instant feedback, smart suggestions, and a beautifully integrated workspace. 🚀
 
 ## ✨ Features
 
@@ -22,6 +24,10 @@ Want to see **Web Humpty** in action? Check out this demo to experience the magi
 ## 🖼️ Screenshots
 
 Take a closer look at what **Web Humpty** has to offer:
+
+<div>
+  <img src="assets/screenshot1.webp" alt="web hupmty main wall" style="border-radius: 10px; margin: 10px;">
+</div>
 
 1. **✨ Main Interface**: A clean, intuitive layout that keeps you focused on coding.
    ![Main Interface](path_to_screenshot_1)
@@ -82,7 +88,7 @@ We review contributions regularly, and we’re always thrilled to see new featur
 
 ## 📄 License
 
-**Web Humpty** is released under the [MIT License](LICENSE). This means you’re free to use, modify, and distribute this software, as long as you include the original license.
+**Web Humpty** is released under the [Apache3.0 License](LICENSE). This means you’re free to use, modify, and distribute this software, as long as you include the original license.
 
 ## 🙌 Acknowledgements
 
