@@ -6,6 +6,12 @@
 
 **Web Humpty** is your ultimate real-time code editor, designed for developers who crave efficiency and creativity. Whether you're working on HTML, CSS, or JavaScript, Web Humpty offers a seamless experience with instant feedback, smart suggestions, and a beautifully integrated workspace. 🚀
 
+## 🌍 Try Web Humpty Online
+
+Experience the power of **Web Humpty** directly in your browser. No installation needed—just open the `link` and start coding right away!
+
+🤩👉 [Click Here](https://dulanjayabhanu.github.io/Web-Humpty/view/)
+
 ## ✨ Features
 
 - **🔍 Real-Time Preview**: No need to refresh! Instantly see your changes reflected in the live preview panel as you code.
