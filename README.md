@@ -104,4 +104,4 @@ We review contributions regularly, and we’re always thrilled to see new featur
 
 ## 📄 License
 
-**Web Humpty** is released under the [Apache3.0 License](LICENSE). This means you’re free to use, modify, and distribute this software, as long as you include the original license.
+**Web Humpty** is released under the [Apache2.0 License](LICENSE). This means you’re free to use, modify, and distribute this software, as long as you include the original license.
