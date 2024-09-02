@@ -58,17 +58,27 @@ Getting started with **Web Humpty** is simple! Just follow these steps:
 ## 🚀 Usage
 
 **Web Humpty** is designed to be as intuitive as possible:
+1. **Start Coding**: Type your HTML, CSS, or JavaScript code in the editor panel.
+2. **Instant Feedback**: Watch your code come to life in the real-time preview panel on the right.
+3. **Smart Suggestions**: Utilize the smart code suggestions to enhance your coding speed and accuracy.
+4. **Customizable Themes**: Choose from a variety of themes to make your coding environment your own.
+
+### ⚡ Performance
+
+**Web Humpty** achieves outstanding performance, making it fast and efficient for developers to work with. According to a Google Lighthouse audit, here are the key performance metrics:
 
 <div>
     <img src="assets/profomence.jpg" alt="web hupmty main wall" style="border-radius: 10px; margin: 10px;">
 </div>
 
-<br/>
+- **Performance Score**: 98/100
+- **First Contentful Paint**: 0.9s ⚡
+- **Largest Contentful Paint**: 0.9s ⚡
+- **Total Blocking Time**: 0ms ⏱️
+- **Cumulative Layout Shift**: 0 (Perfect Stability) 🛠️
 
-1. **Start Coding**: Type your HTML, CSS, or JavaScript code in the editor panel.
-2. **Instant Feedback**: Watch your code come to life in the real-time preview panel on the right.
-3. **Smart Suggestions**: Utilize the smart code suggestions to enhance your coding speed and accuracy.
-4. **Customizable Themes**: Choose from a variety of themes to make your coding environment your own.
+These results demonstrate the high-speed rendering and smooth experience offered by **Web Humpty**. With no blocking time and a fast paint rate, the editor ensures an efficient workflow for developers!
+
 
 ## 🤝 Contributing
 
