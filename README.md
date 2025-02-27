@@ -1,4 +1,4 @@
-# 🌐 Web Humpty
+# 🥚 Web Humpty
 
 <div>
   <img src="assets/wall.webp" alt="web hupmty main wall" style="border-radius: 10px; margin: 10px;">
